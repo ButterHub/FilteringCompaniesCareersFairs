@@ -1,7 +1,6 @@
 ## It's recommended you work through the jupyter-notebook file, download it and run it through. I wish GitHub had jupyter-notebook integration.
 
-
-
+Acquiring the company names from the Birkbeck Career's Website
 ```python
 import webbrowser
 from bs4 import BeautifulSoup as bs
@@ -20,16 +19,13 @@ for i in companyList:
     companyList[i]["search_name"] = i.replace(' ', '+')
 ```
 
-
+## Macmillan != MacMillan Cancer Research
 ```python
 # Need to update a few companies so they get searched on Glassdoor better. Macmillan -> Macmillan Cancer Research
 companyList["MacMillan"]["search_name"] = "MacMillan+Cancer+Research"
 companyList
 ```
-
-
-
-
+## This is the result of webscraping: 
     {'Alliance Visas': {'rating': ' 3.7', 'search_name': 'Alliance+Visas'},
      'ASOS': {'rating': ' 3.6', 'search_name': 'ASOS'},
      'Betway Group': {'rating': ' 3.4', 'search_name': 'Betway+Group'},
@@ -82,7 +78,7 @@ companyList
 
 
 
-
+## Now to query Glassdoor for the ratings, through simple url's. (GET requests)
 ```python
 user_agent = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7'
 headers={'User-Agent':user_agent,} 
@@ -109,7 +105,7 @@ for companyName, value in companyList.items():
     
 # Select companies with rating > 4 and print.
 ```
-
+## These are the ratings. To be specific, this is the rating of the first company that pops up. 
      3.7
      3.6
      3.4
@@ -166,7 +162,7 @@ for companyName, value in companyList.items():
      https://www.glassdoor.co.uk/Job/jobs.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=VOLO&sc.keyword=VOLO&locT=N&locId=2&jobType=
     
 
-
+## To extract companies with ratings > 4.0.
 ```python
 for companyName, value in companyList.items():
     if float(value["rating"]) > 4:
