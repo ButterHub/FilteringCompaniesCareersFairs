@@ -1,5 +1,6 @@
-## It's recommended you work through the jupyter-notebook file, download it and run it through. I wish GitHub had jupyter-notebook integration.
-### Fine print: Unfortunately Glassdoor searches aren't perfect. Try it!: Search for Circus Street, and the first result is "GP Open Evening"...Second place goes to Circus Street.
+## Selecting companies with a Glassdoor Rating > 4.0 from all the companies attending the Birkbeck Careers Fair of 2018.
+#### It's recommended you work through the jupyter-notebook file, download it and run it through. I wish GitHub had jupyter-notebook integration.
+##### Fine print: Unfortunately Glassdoor searches aren't perfect. Try it!: Search for Circus Street, and the first result is "GP Open Evening"...Second place goes to Circus Street.
 
 ![Glassdoor Search](https://i.imgur.com/DbtPSra.png)
 
