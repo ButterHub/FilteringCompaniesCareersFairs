@@ -184,3 +184,5 @@ for companyName, value in companyList.items():
     SLV Global
     The Challenge
     
+    
+## I did this pretty quickly, but really should have commented some parts of it. But there you have it, out of all the companies attending the Birkbeck Career's Fair on the 4th of November 2018, there are 10 companies that have a glassdoor rating > 4.0.
