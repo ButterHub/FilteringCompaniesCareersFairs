@@ -1,6 +1,10 @@
 ## It's recommended you work through the jupyter-notebook file, download it and run it through. I wish GitHub had jupyter-notebook integration.
+### Fine print: Unfortunately Glassdoor searches aren't perfect. Try it!: Search for Circus Street, and the first result is "GP Open Evening"...Second place goes to Circus Street.
 
-Acquiring the company names from the Birkbeck Career's Website
+![Glassdoor Search](https://i.imgur.com/DbtPSra.png)
+
+
+## Acquiring the company names from the Birkbeck Career's Website
 ```python
 import webbrowser
 from bs4 import BeautifulSoup as bs
@@ -181,4 +185,4 @@ for companyName, value in companyList.items():
     The Challenge
     
     
-## I did this pretty quickly, but really should have commented some parts of it. But there you have it, out of all the companies attending the Birkbeck Career's Fair on the 4th of November 2018, there are 10 companies that have a glassdoor rating > 4.0.
+## I did this pretty quickly, but really should have commented some parts of it, and added more pictures to this readme. But there you have it, out of all the companies attending the Birkbeck Career's Fair on the 4th of November 2018, there are 10 companies that have a glassdoor rating > 4.0.
