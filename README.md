@@ -24,10 +24,10 @@ for i in companyList:
     companyList[i]["search_name"] = i.replace(' ', '+')
 ```
 
-## Macmillan != MacMillan Cancer Research
+## Macmillan != MacMillan Cancer Support
 ```python
-# Need to update a few companies so they get searched on Glassdoor better. Macmillan -> Macmillan Cancer Research
-companyList["MacMillan"]["search_name"] = "MacMillan+Cancer+Research"
+# Need to update a few companies so they get searched on Glassdoor better. Macmillan -> Macmillan Cancer Support
+companyList["MacMillan"]["search_name"] = "MacMillan+Cancer+Support"
 companyList
 ```
 ## This is the result of webscraping: 
@@ -56,7 +56,7 @@ companyList
      'Le Cordon Bleu': {'rating': 0, 'search_name': 'Le+Cordon+Bleu'},
      'London Fire Brigade': {'rating': ' 3.0',
       'search_name': 'London+Fire+Brigade'},
-     'MacMillan': {'rating': ' 5.0', 'search_name': 'MacMillan+Cancer+Research'},
+     'MacMillan': {'rating': ' 5.0', 'search_name': 'MacMillan+Cancer+Support'},
      'Mayor’s Entrepreneur 2019': {'rating': 0,
       'search_name': 'Mayor’s+Entrepreneur+2019'},
      'Metro Bank': {'rating': 0, 'search_name': 'Metro+Bank'},
