@@ -173,17 +173,17 @@ for companyName, value in companyList.items():
     if float(value["rating"]) > 4:
         print(companyName)
 ```
-
-    Centre 404
-    Circus Street
-    Dozens
-    Frontier
+I added the details of each company below.
+    Centre 404: Charity looking for support workers.
+    Circus Street: Upskills the talent of other companies.
+    Dozens: banking where they make money if you profit only.
+    Frontier: Volunteer internationally
     Government Social Research
-    HS. Live
-    JobTeaser
-    Metro Bank
-    SLV Global
-    The Challenge
+    HS. Live: Healthtech start ups accelerator & fund
+    JobTeaser: Recruitment, but mainly in france
+    Metro Bank: bank
+    SLV Global: mental health organisation providing volunteer placements
+    The Challenge: Charity, Summer paid roles, mentoring teams
     
     
 ## I did this pretty quickly, but really should have commented some parts of it, and added more pictures to this readme. But there you have it, out of all the companies attending the Birkbeck Career's Fair on the 4th of November 2018, there are 10 companies that have a glassdoor rating > 4.0.
